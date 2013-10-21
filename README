@@ -1,5 +1,7 @@
-nodefinder
-Strategies for automatic node discovery in Erlang
+ec2nodefinder is a node discovery service based upon ec2-describe-instances.
 
-Imported from
-http://code.google.com/p/nodefinder/
+On Ubuntu:
+  need to make sure multiverse is enabled in "/etc/apt/sources.list"
+  if not, enable it, and do "apt-get update"
+  then, "apt-get install ec2-api-tools"
+  then make sure all application env settings are set for ec2-describe-instances
