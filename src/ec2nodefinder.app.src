@@ -24,6 +24,6 @@
         {cert, "PUT cert-filepath here"},
         {ping_timeout_sec, 60},
         {ec2_home, "/usr"},
-        {ec2_home, "/usr/lib/jvm/java-6-openjdk-amd64/jre"}
+        {java_home, "/usr/lib/jvm/java-6-openjdk-amd64/jre"}
         ]}]}.
 
